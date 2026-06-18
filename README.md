@@ -231,3 +231,10 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 4. **生成的代码工程示例：**
 
 <img width="376" height="621" alt="React Native 插件适配生成的鸿蒙工程" src="screenshots/react-native-generated-ohos-project.png" />
+
+## 4. 流程版本选择
+
+管理面板头部提供“完整流程版 / 高效流程版”下拉选项，默认使用**完整流程版**。页面始终只展示 Flutter、React Native、Android SDK 三个适配类型标签；切换流程版后，当前类型会切换到对应的执行流程与 Agent 配置。
+
+- **完整流程版**：推荐 GLM、DeepSeek、Kimi、Minimax、Mimo 系列模型使用。该版本流程拆分更细，适合通过多阶段分析、方案制定、适配、自测和总结来降低单次任务复杂度。
+- **高效流程版**：GPT-5.5、Claude Opus 4.8 等强推理、强编码模型使用，且推荐使用 Claude Code 作为后端。
